@@ -10,7 +10,7 @@ import { Router } from '@angular/router';
   styleUrl: './side-nav.scss'
 })
 export class SideNav {
-  isSlideOut: boolean = true;
+  isSlideOut: boolean = false;
 
   constructor(private router: Router){}
 
